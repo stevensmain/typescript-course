@@ -20,3 +20,7 @@ var response2;
 response2 = true;
 var response3 = null;
 var response4 = undefined;
+// Combine types
+var response5;
+response5 === null || response5 === void 0 ? void 0 : response5.toString();
+var response6;

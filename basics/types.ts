@@ -23,3 +23,12 @@ response2 = true;
 
 const response3: null = null;
 const response4: undefined = undefined;
+
+// Our types
+type ApiResponse = string | undefined;
+
+// Combine types
+let response5: number | undefined;
+response5?.toString();
+
+let response6: ApiResponse;
