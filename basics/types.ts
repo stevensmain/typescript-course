@@ -32,3 +32,11 @@ let response5: number | undefined;
 response5?.toString();
 
 let response6: ApiResponse;
+
+// Type assertions
+let message: any = "";
+let messageLowerCase = (message as string).toUpperCase();
+let messageUpperCase = <string>message.toUpperCase();
+
+const canvas = <HTMLCanvasElement>document.getElementById("canvas");
+canvas.toggleAttribute("class");
